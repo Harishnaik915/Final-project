@@ -512,9 +512,9 @@ with tab2:
 
 # ------------------------- EMAIL ALERT -------------------------
 st.markdown("### 📤 Send Email Alert to Admin")
-sender_email = "tejaerugurala5@gmail.com"
-receiver_email = "tejaerugurala5@gmail.com"
-sender_password = "hceegfzdebslbdqp"  # App password, keep safe
+sender_email = "harishnayak915@gmail.com"
+receiver_email = "harishnayak915@gmail.com"
+sender_password = "zhfc vzzx ztfs mxfe"  # App password, keep safe
 
 if st.button("📧 Email Low Performers List to Admin"):
     low_perf_emps = df_filtered[df_filtered["Performance_Score"] <= 2]
